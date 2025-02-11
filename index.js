@@ -1,8 +1,3 @@
-//
-// Proxy Backblaze S3 compatible API requests, sending notifications to a webhook
-//
-// Adapted from https://github.com/obezuk/worker-signed-s3-template
-//
 import { AwsClient } from 'aws4fetch'
 
 const UNSIGNABLE_HEADERS = [
